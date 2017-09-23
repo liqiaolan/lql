@@ -1,0 +1,182 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+body{
+	width:100%;
+	height:100%;
+	background: url(../img/3.jpg) no-repeat center/cover;
+}
+.left{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	float:left;
+	margin-top:20px;
+	margin-left:100px;
+}
+img{
+	width:150px;
+	height:150px;	
+	border-radius:50%;	
+}
+.middle{
+	width:500px;
+	height:500px;
+	/*background:#dfdfdf;*/
+	float:left;
+	margin-left:10px;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	overflow: hidden;
+}
+.song{
+	font-size:30px;
+	font-family: "微软雅黑";
+	line-height:30px;
+	margin-bottom:20px;
+	color: #555555;
+	margin-top:20px;
+}
+.singer{
+	font-size:10px;
+	font-family: "微软雅黑";
+	line-height:20px;
+	color:#6A6A6A;
+}
+.songword{
+	margin-top:15px;
+	overflow: hidden;
+}
+.songword>li{
+	font-size:16px;
+	font-family: "微软雅黑";
+	line-height:34px;
+	color:#6A6A6A;
+	text-align: center;
+}
+.bottom{
+	width:100%;
+	height:100px;
+	/*background:#DFDFDF;*/
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	margin-right:auto;
+	margin-left:auto;
+}
+.bottomL{
+	width:468px;
+	height:54px;
+	float:left;
+	margin-left:30px;
+	/*background: yellow;*/
+	display: flex;
+	justify-content: space-around;
+	position:relative;
+}
+.pause{
+	border-radius:50%;
+}
+.bottom .icon-play{
+	font-family: 'iconfont';
+	font-size:50px;
+	color:#EDA5FA;
+}
+.bottom .icon-zanting{
+	font-family: 'iconfont';
+	font-size:50px;
+	color:#EDA5FA;
+}
+.last{
+	border-radius:50%;
+}
+.next{
+	border-radius:50%;
+	line-height:45px;
+}
+.bottom .iconfont{
+	font-size:50px;
+	color:#EDA5FA;	
+	cursor:pointer;
+}
+.bottom .icon-shangyishou{
+	font-size:50px;
+	color:#EDA5FA;
+}
+.bottom .icon-xiayishou{
+	font-size:50px;
+	color:#EDA5FA;
+}
+.bottomR{
+	float:left;
+	margin-left:30px;
+	width:300px;
+	height:30px;	
+	/*background: pink;*/
+}
+.time>span{
+	font-size:18px;
+	color:#EDA5FA;
+}
+.current{
+	float:left;
+}
+.duration{
+	float:right;
+}
+.progress{
+	width:300px;
+	height:10px;
+	border-radius:20px;
+	background:#E0E0E0;
+	float:left;
+	margin-top:16px;
+	position: relative;
+}
+.progressB{
+	width:0%;
+	height:100%;
+	border-radius:20px;
+	background:#EDA5FA;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.icon-yinliang{
+	float:left;
+	margin-left:20px;
+	line-height:66px;
+}
+.video{
+	width:200px;
+	height:10px;
+	border-radius:20px;
+	background:#E0E0E0;
+	float:left;
+	margin-top:26px;
+	position: relative;
+}
+.videoA{
+	width:14px;
+	height: 14px;
+	background:#EDA5FA;
+	border-radius:50%;
+	position:absolute;
+	top:-2px;
+	left:-7px;	
+	cursor:pointer;
+}
+.videoB{
+	width:0%;
+	height:10px;
+	border-radius:20px;
+	background:#EDA5FA;
+	position:absolute;
+	top:0;
+	left:0;
+}

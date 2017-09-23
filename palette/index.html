@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>画板</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="iconfont/iconfont.css" />
+	<link rel="stylesheet" href="iconfont1/iconfont.css" />
+	<!--<script src="js/function.js"></script>-->
+	<script src='js/function1.js'></script>
+	<!--<script src="js/index.js"></script>-->
+	<script src='js/index1.js'></script>
+</head>
+<body>
+	<main>
+		<div class="left">
+			 <div class="logo"></div>
+			<label class='iconfont icon-line type' id='line'active='true' ></label>
+			<label class='iconfont icon-xuxian type' id='dash'></label>
+			<label class='iconfont icon-qianbi type' id='qianbi'></label>
+			<label class='iconfont icon-yuan type' id='circle'></label>
+			<label class="iconfont icon-duobianxing1 type" id='djx'></label>
+			<label class='iconfont icon-wenzi' id='font'></label>
+			<label class='iconfont icon-tuoyuan' id='caijian'></label>
+			<label class='iconfont icon-ft-rectangle type' id='rectA'></label>
+			<label class='iconfont icon-duobianxing type' id='dbx'></label>
+			<label class='iconfont icon-cancel' id='cancel'></label>
+			<label class="iconfont icon-qianbi1 style" id='strokeS'></label>			
+			<label class='iconfont icon-tianchong style' id='fillS'></label>
+			<label><input type="color" / id='color1'></label>
+			<label><input type="color" / id='color2'></label>
+		</div>
+		<div class="right">
+			<div class="top">
+				<label class='iconfont icon-xinjian' id='newC'></label>
+				<label id='save'><a href=""  class='iconfont icon-baocun'></a></label>
+				<label class="iconfont icon-xiangpica-copy" id='eraser'></label>
+			    <label class='iconfont icon-huabuhuanyuan' id='hbhy'></label>
+			    <label class='iconfont icon-daorutupian' id='hbsx'></label>			
+			    <label class='iconfont icon-masaike' id='hbsx'></label>			
+			    <label class='iconfont icon-ic_invert_colors_px' id='hbsx'></label>			
+				<label class="iconfont icon-huabufangda" id='hbfd'></label>				
+			    <label class='iconfont icon-huabusuoxiao' id='hbsx'></label>			
+			</div>
+			<div class="bottom">
+	         	<canvas width="800" height="560"></canvas>
+	        	<div class="eraser"></div>
+	        	<div class="caijian"></div>
+	        	<div class="mask"></div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
